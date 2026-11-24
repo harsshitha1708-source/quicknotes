@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Notes Application</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📝 Quick Notes</h1>
+
+        <p class="subtitle">
+            Write your thoughts and save them!
+        </p>
+
+        <!-- Note Form -->
+        <div class="note-form">
+
+            <h2>Create a New Note</h2>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Enter note title"
+            >
+
+            <textarea
+                id="content"
+                placeholder="Write your note here..."
+            ></textarea>
+
+            <button onclick="saveNote()">
+                + Save Note
+            </button>
+
+            <p id="message"></p>
+
+        </div>
+
+        <!-- Saved Notes -->
+        <div class="saved-section">
+
+            <h2>My Saved Notes</h2>
+
+            <div id="notesList"></div>
+
+        </div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+</html>

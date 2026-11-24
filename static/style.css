@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f0ff;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1 {
+    color: #5035a5;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.note-form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px #ddd;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 130px;
+    resize: vertical;
+}
+
+button {
+    background: #6545c5;
+    color: white;
+    border: none;
+    padding: 13px 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #49309a;
+}
+
+#message {
+    margin-top: 15px;
+}
+
+.saved-section {
+    margin-top: 30px;
+}
+
+.note-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.note-card h3 {
+    color: #5035a5;
+    margin-bottom: 10px;
+}
+
+.note-card p {
+    color: #555;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.note-card button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.note-card button:hover {
+    opacity: 0.85;
+}
